@@ -8,7 +8,7 @@ $(document).ready(function() {
       $("#hulk").show();
     } else if (chosenColor === "red" && money === "high") {
       $("#ironman").show();
-    } else { // if (chosenColor === "yellow" && money == "medium") {
+    } else if  (chosenColor === "yellow" && money == "medium") {
       $("#thor").show();
     } 
     console.log(money);
